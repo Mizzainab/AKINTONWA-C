@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace Assignment
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+          int i = 4;
+          double d = 4.0;
+          string s = "Polyilaro";
+          
+          // Declare second integer,double,and         string variable  
+          int secondinteger;
+          double secondDouble;
+          string secondString;
+        
+           Console.WriteLine ("Enter an integer value");
+           secondinteger =
+ Convert.ToInt32(Console.ReadLine());
+ 
+ Console.WriteLine ("Enter a double value");
+            secondDouble =
+Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Enter a string message");
+             secondString = Console.ReadLine();
+             
+           // print the sum of both integers on a new line
+         Console.WriteLine (i + secondinteger);
+         
+         //print the sum of double variables on a new line
+ double doublesum = d + secondDouble;
+ Console.WriteLine (Math.Round(doublesum,1));
+ 
+ // Concactenate and print the string variables on a new line
+    Console.WriteLine (s + secondString);
+    Console.ReadLine(); 
+    
+              
+        }
+    }
+}
