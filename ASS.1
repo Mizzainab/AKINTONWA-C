@@ -1,0 +1,27 @@
+using System;
+namespace myascending
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        Console.WriteLine("Enter three numbers:");
+        int num1=
+        Convert.ToInt32 (Console.ReadLine());
+        int num2 =
+      Convert.ToInt32 (Console.ReadLine());
+        int num3 =
+     Convert.ToInt32 (Console.ReadLine());
+        
+        int[]numbers={num1,num2,num3};
+        Array.Sort(numbers);
+        Console.WriteLine(numbers);
+        foreach(int num in numbers)
+        {
+        
+        Console.WriteLine(num);
+            
+        }
+    }
+}
+}
