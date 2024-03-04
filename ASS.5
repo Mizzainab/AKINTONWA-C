@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace arrayComponents
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        float[]alpha=new float[50];
+        for(int i=0;i<25;i++){
+        alpha[i]=i*i;
+        }
+        
+        for(int i=25;i<alpha.Length;i++){
+        alpha [i]=3*i;
+        }
+    
+     for(int i=0;i<alpha.Length;i++){
+     Console.Write(alpha[i]+" ");
+     if((i+1)%10==0){
+     
+     Console.WriteLine();
+     }
+     
+     }
+            
+        }
+        
+    }
+}
